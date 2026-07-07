@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phuree Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!--================ NAVBAR ================-->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                Portfolio
+
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#certificates">Certificates</a></li>
+
+                <li><a href="#activities">Activities</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+            <i class="fa-solid fa-moon" id="darkMode"></i>
+
+        </nav>
+
+    </header>
+
+    <!--================ HERO =================-->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Phuree Ratchatawatcharocha</h1>
+
+            <h2 id="typing"></h2>
+            <p>
+
+                Passionate about Web Development,
+
+                Artificial Intelligence,
+
+                and Software Engineering.
+
+            </p>
+
+            <div class="hero-btn">
+
+                <a href="assets/Rezume.pdf" download class="btn">
+
+                    <i class="fa-solid fa-download"></i>
+
+                    Download Resume
+
+                </a>
+                <a href="#projects" class="btn btn2">My Projects</a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/profile.jpg" alt="Profile">
+
+        </div>
+
+    </section>
+
+    <!--================ ABOUT =================-->
+
+    <section class="about" id="about">
+
+        <h2 class="title">Summary</h2>
+
+        <div class="about-container">
+
+            <p>
+
+                นักศึกษาวิศวกรรมคอมพิวเตอร์ที่มุ่งมั่นพัฒนาทักษะด้าน Software Development มีประสบการณ์ในการพัฒนา Mobile
+                และ Web
+                Application ออกแบบ UI/UX และพัฒนา Chatbot มีความสามารถในการแก้ไขปัญหา ทำงานเป็นทีม
+                และเรียนรู้เทคโนโลยีใหม่ได้อย่างรวดเร็ว
+                พร้อมนำความรู้และทักษะไปสร้างผลงานที่มีคุณภาพและพัฒนาตนเองในสายงานด้านซอฟต์แวร์
+            </p>
+
+        </div>
+
+    </section>
+    <section class="stats">
+
+        <div class="stat-box">
+
+            <h1>5+</h1>
+
+            <p>Projects</p>
+
+        </div>
+
+        <div class="stat-box">
+
+            <h1>10+</h1>
+
+            <p>Certificates</p>
+
+        </div>
+
+        <div class="stat-box">
+
+            <h1>15+</h1>
+
+            <p>Skills</p>
+
+        </div>
+
+        <div class="stat-box">
+
+            <h1>2+</h1>
+
+            <p>Years Learning</p>
+
+        </div>
+
+    </section>
+
+    <!--================ SKILLS =================-->
+
+    <section class="skills" id="skills">
+
+        <h2 class="title">
+
+            Technical Skills
+
+        </h2>
+
+        <div class="skill">
+
+            <h4>HTML</h4>
+
+            <div class="bar">
+
+                <div class="html"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <h4>CSS</h4>
+
+            <div class="bar">
+
+                <div class="css"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <h4>JavaScript</h4>
+
+            <div class="bar">
+
+                <div class="js"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <h4>Python</h4>
+
+            <div class="bar">
+
+                <div class="python"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ PROJECTS =================-->
+
+    <section class="projects" id="projects">
+
+        <h2 class="title">
+            Project Experience
+        </h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+
+                <img src="images/chatbot.png">
+
+                <h3>CPE AI Chatbot</h3>
+
+                <p>
+                    AI Chatbot using Python,
+                    FastAPI,
+                    Ngrok,
+                    and Machine Learning.
+                </p>
+
+                <a href="#" onclick="openProject(projects.chatbot);return false;">
+                    View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+
+                <img src="images/chemistry.png">
+
+                <h3>Chemistry App</h3>
+
+                <p>
+                    Application about Periodic Table,
+                    Chemical Formula,
+                    and Solution Calculation.
+                </p>
+
+                <a href="#" onclick="openProject(projects.chemistry);return false;">
+                    View Project
+                </a>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="images/romestead.png">
+
+                <h3>Romestead</h3>
+
+                <p>
+                    Unity Game developed using C#
+                    and Object Oriented Programming.
+                </p>
+
+                <a href="#" onclick="openProject(projects.romestead);return false;">
+                    View Project
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+    <div id="projectModal" class="modal">
+
+        <div class="modal-content">
+
+            <span class="close">&times;</span>
+
+            <h2 id="modalTitle"></h2>
+
+            <img id="mainImage" src="">
+
+            <div class="thumbnail-container" id="thumbnailContainer"></div>
+
+            <h3>Description</h3>
+
+            <p id="modalDescription"></p>
+
+            <h3>Technology</h3>
+
+            <div id="modalTech"></div>
+
+            <div class="project-buttons">
+
+                <a id="githubBtn" target="_blank">GitHub</a>
+
+                <a id="demoBtn" target="_blank">Demo</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--================ CERTIFICATES =================-->
+
+    <section class="certificates" id="certificates">
+
+        <h2 class="title">
+
+            Certificates
+
+        </h2>
+
+        <div class="certificate-container">
+
+            <div class="certificate">
+
+                <img src="images/cert1.png">
+
+            </div>
+
+            <div class="certificate">
+
+                <img src="images/cert2.png">
+
+            </div>
+
+            <div class="certificate">
+
+                <img src="images/cert3.png">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="timeline">
+
+        <h2 class="title">Education</h2>
+
+        <div class="timeline-box">
+
+            <div class="timeline-item">
+
+                <h3>Bachelor of Engineering in Computer Engineering</h3>
+
+                <p>Pibulsongkram Rajabhat University</p>
+
+                <span>2022 - Present</span>
+
+                <div class="grade-box">
+
+                    <div class="grade-card">
+                        <h2>2.78</h2>
+                        <p>GPAX</p>
+                    </div>
+
+                    <div class="grade-card">
+                        <h2>3.05</h2>
+                        <p>Major GPA</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--================ CONTACT =================-->
+
+    <section class="contact" id="contact">
+
+        <h2 class="title">Contact</h2>
+
+        <div class="contact-box">
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:eakk1612@gmail.com">
+                    eakk1612@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+66959137845">
+                    095-913-7845
+                </a>
+            </p>
+
+            <p>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/eakk1612-eng" target="_blank">
+                    github.com/eakk1612-eng
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+    <footer>
+
+        <p>
+
+            © 2026 Phuree Portfolio
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
