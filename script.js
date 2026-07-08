@@ -326,10 +326,6 @@ function openProject(project) {
 
     document.getElementById("modalTech").innerHTML = project.tech;
 
-    document.getElementById("githubBtn").href = project.github;
-
-    document.getElementById("demoBtn").href = project.demo;
-
     document.getElementById("mainImage").src = project.images[0];
 
     const thumbnails = document.getElementById("thumbnailContainer");
