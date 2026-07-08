@@ -315,9 +315,9 @@ const projects = {
         demo: "#",
 
         images: [
-            "images/romestead1.png",
-            "images/romestead2.png",
-            "images/romestead3.png"
+            "images/library1.png",
+            "images/library2.png",
+            "images/library3.png"
         ]
 
     }
