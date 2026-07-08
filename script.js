@@ -300,7 +300,7 @@ const projects = {
 
         title: "library-management",
 
-        description: "เกมแนว Adventure พัฒนาด้วย Unity และภาษา C# โดยใช้หลักการ Object-Oriented Programming มีระบบต่อสู้ ระบบเก็บไอเทม และระบบ Quest",
+        description: "ระบบจัดการห้องสมุด (ยืม-คืนหนังสือ) ออกแบบฐานข้อมูล SQLite พร้อม dashboard เว็บที่ยืม-คืนหนังสือได้จริง คำนวณค่าปรับอัตโนมัติ และรันได้ในเบราว์เซอร์โดยไม่ต้องมี server",
 
         tech: "Unity • C# • OOP",
 
