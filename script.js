@@ -268,10 +268,7 @@ const projects = {
 
         tech: "Python • FastAPI • HTML • CSS • JavaScript • SQLite • AI",
 
-        github: "https://github.com/eakk1612-eng",
-
-        demo: "#",
-
+        
         images: [
             "images/chatbot1.png",
             "images/chatbot2.png",
@@ -290,10 +287,7 @@ const projects = {
 
         tech: "Java • Android Studio • Firebase",
 
-        github: "https://github.com/eakk1612-eng",
-
-        demo: "#",
-
+        
         images: [
             "images/chemistry1.png",
             "images/chemistry2.png",
@@ -310,9 +304,7 @@ const projects = {
 
         tech: "Unity • C# • OOP",
 
-        github: "https://github.com/eakk1612-eng",
-
-        demo: "#",
+       
 
         images: [
             "images/library1.png",
