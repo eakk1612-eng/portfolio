@@ -1371,3 +1371,104 @@ body.dark .grade-card p {
     text-decoration: none;
 
 }
+/* ==========================
+   Fix Dark Mode White Areas
+========================== */
+
+
+/* Project Modal */
+
+body.dark .modal-content {
+
+    background: #1d1d1d;
+    color: #ffffff;
+    border: 1px solid #2f2f2f;
+
+}
+
+
+body.dark .modal-content h2,
+body.dark .modal-content h3 {
+
+    color:#ffffff;
+
+}
+
+
+body.dark .modal-content p {
+
+    color:#d1d5db;
+
+}
+
+
+/* Close Button */
+
+body.dark .close {
+
+    color:#ffffff;
+
+}
+
+
+body.dark .close:hover {
+
+    color:#60a5fa;
+
+}
+
+
+/* Thumbnail */
+
+body.dark .thumbnail-container img {
+
+    border:1px solid #444;
+
+}
+
+
+/* Contact Form */
+
+body.dark input,
+body.dark textarea {
+
+    background:#222;
+    color:#ffffff;
+    border:1px solid #444;
+
+}
+
+
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+
+    color:#aaa;
+
+}
+
+
+/* Link */
+
+body.dark a {
+
+    color:#60a5fa;
+
+}
+
+
+/* Project View Button */
+
+body.dark .project-card a {
+
+    color:#60a5fa;
+
+}
+
+
+/* Image Border */
+
+body.dark img {
+
+    border-color:#333;
+
+}
