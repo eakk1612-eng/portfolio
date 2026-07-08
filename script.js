@@ -296,9 +296,9 @@ const projects = {
 
     },
 
-    romestead: {
+    library: {
 
-        title: "Romestead",
+        title: "library-management",
 
         description: "เกมแนว Adventure พัฒนาด้วย Unity และภาษา C# โดยใช้หลักการ Object-Oriented Programming มีระบบต่อสู้ ระบบเก็บไอเทม และระบบ Quest",
 
