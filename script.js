@@ -302,7 +302,9 @@ const projects = {
 
         description: "ระบบจัดการห้องสมุด (ยืม-คืนหนังสือ) ออกแบบฐานข้อมูล SQLite พร้อม dashboard เว็บที่ยืม-คืนหนังสือได้จริง คำนวณค่าปรับอัตโนมัติ และรันได้ในเบราว์เซอร์โดยไม่ต้องมี server",
 
-        tech: "Unity • C# • OOP",
+        tech: "Python • SQLite • HTML • CSS • JavaScript",
+        
+        link: "https://github.com/eakk1612-eng/library-management-sql",
 
        
 
@@ -310,6 +312,24 @@ const projects = {
             "images/library1.png",
             "images/library2.png",
             "images/library3.png"
+        ]
+
+    },
+
+        movie: {
+
+        title: "Movie Recommender",
+
+        description: "เว็บแอปแนะนำภาพยนตร์ที่ใช้ AI วิเคราะห์ความชอบของผู้ใช้ พัฒนาด้วย Streamlit รองรับการเรียกใช้ LLM หลายผู้ให้บริการ และมีโหมด Offline ที่ใช้โมเดลและข้อมูลที่สร้างไว้ล่วงหน้า",
+
+        tech: "Python • Streamlit • LLM API • Machine Learning",
+
+        link: "https://github.com/eakk1612-eng/movie-recommender",
+
+        images: [
+            "images/movie1.png",
+            "images/movie2.png",
+            "images/movie3.png"
         ]
 
     }
@@ -327,6 +347,12 @@ function openProject(project) {
     document.getElementById("modalTech").innerHTML = project.tech;
 
     document.getElementById("mainImage").src = project.images[0];
+
+    const links = document.getElementById("modalLinks");
+
+    links.innerHTML = project.link
+        ? `<a href="${project.link}" target="_blank"><i class="fa-brands fa-github"></i> View on GitHub</a>`
+        : "";
 
     const thumbnails = document.getElementById("thumbnailContainer");
 

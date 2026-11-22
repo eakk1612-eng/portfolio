@@ -905,80 +905,6 @@ Statistics
 
 }
 
-/*======================
-Progress Bar
-======================*/
-
-.skill {
-
-    margin-bottom: 25px;
-
-}
-
-.skill h4 {
-
-    margin-bottom: 10px;
-
-}
-
-.bar {
-
-    background: #ddd;
-
-    height: 12px;
-
-    border-radius: 50px;
-
-    overflow: hidden;
-
-}
-
-.bar div {
-
-    height: 100%;
-
-    background: #2563eb;
-
-    border-radius: 50px;
-
-    animation: grow 2s;
-
-}
-
-.html {
-
-    width: 95%;
-
-}
-
-.css {
-
-    width: 90%;
-
-}
-
-.js {
-
-    width: 80%;
-
-}
-
-.python {
-
-    width: 88%;
-
-}
-
-@keyframes grow {
-
-    from {
-
-        width: 0;
-
-    }
-
-}
-
 .tags {
 
     margin: 0 20px 15px;
@@ -1460,10 +1386,9 @@ body.dark a {
 
 body.dark .project-card a {
 
-    color:#60a5fa;
+    color:#ffffff;
 
 }
-
 
 /* Image Border */
 
@@ -1471,4 +1396,20 @@ body.dark img {
 
     border-color:#333;
 
+}
+
+/* GitHub button in modal (dark mode) */
+
+body.dark .project-buttons a {
+    color: #ffffff;
+}
+
+/* Skills Cards */
+
+.skills {
+    margin: 100px auto;
+}
+
+.skill-container .card p {
+    line-height: 1.6;
 }

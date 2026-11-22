@@ -46,8 +46,6 @@
 
                 <li><a href="#certificates">Certificates</a></li>
 
-                <li><a href="#activities">Activities</a></li>
-
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
@@ -125,7 +123,7 @@
 
         <div class="stat-box">
 
-            <h1>3</h1>
+            <h1>4</h1>
 
             <p>Projects</p>
 
@@ -154,56 +152,56 @@
 
     <section class="skills" id="skills">
 
-        <h2 class="title">
+        <h2 class="title">Technical Skills</h2>
 
-            Technical Skills
+        <div class="skill-container">
 
-        </h2>
-
-        <div class="skill">
-
-            <h4>HTML</h4>
-
-            <div class="bar">
-
-                <div class="html"></div>
-
+            <div class="card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>โครงสร้างหน้าเว็บ</p>
             </div>
 
-        </div>
-
-        <div class="skill">
-
-            <h4>CSS</h4>
-
-            <div class="bar">
-
-                <div class="css"></div>
-
+            <div class="card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>ออกแบบ Responsive UI</p>
             </div>
 
-        </div>
-
-        <div class="skill">
-
-            <h4>JavaScript</h4>
-
-            <div class="bar">
-
-                <div class="js"></div>
-
+            <div class="card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Interactive Web</p>
             </div>
 
-        </div>
+            <div class="card">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <p>FastAPI, Streamlit, AI</p>
+            </div>
 
-        <div class="skill">
+            <div class="card">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+                <p>Android App Development</p>
+            </div>
 
-            <h4>Python</h4>
+            <div class="card">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL / SQLite</h3>
+                <p>ออกแบบฐานข้อมูล</p>
+            </div>
 
-            <div class="bar">
+            <div class="card">
+                <i class="fa-brands fa-github"></i>
+                <h3>Git & GitHub</h3>
+                <p>Version Control</p>
+            </div>
 
-                <div class="python"></div>
-
+            <div class="card">
+                <i class="fa-solid fa-robot"></i>
+                <h3>AI / Chatbot</h3>
+                <p>RAG, LLM, Machine Learning</p>
             </div>
 
         </div>
@@ -273,6 +271,22 @@
                 </a>
             </div>
 
+            <div class="project-card">
+
+                <img src="images/movie.png">
+
+                <h3>Movie Recommender</h3>
+
+                <p>
+                    เว็บแอปแนะนำภาพยนตร์ด้วย AI พัฒนาด้วย Python และ Streamlit
+                    รองรับทั้งโหมด LLM และโหมด Offline
+                </p>
+
+                <a href="#" onclick="openProject(projects.movie);return false;">
+                    View Project
+                </a>
+            </div>
+
         </div>
 
     </section>
@@ -296,11 +310,13 @@
 
             <div id="modalTech"></div>
 
-           
+            <div class="project-buttons" id="modalLinks"></div>
 
         </div>
 
     </div>
+
+    
 
 
 
