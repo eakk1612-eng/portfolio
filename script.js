@@ -304,7 +304,7 @@ const projects = {
 
         tech: "Python • SQLite • HTML • CSS • JavaScript",
         
-        link: "https://github.com/eakk1612-eng/library-management-sql",
+        link: "https://eakk1612-eng.github.io/library-management-sql/",
 
        
 
@@ -324,7 +324,7 @@ const projects = {
 
         tech: "Python • Streamlit • LLM API • Machine Learning",
 
-        link: "https://github.com/eakk1612-eng/movie-recommender",
+        link: "https://movie-recommender-bmnpqbwufueoqrj4ij5uiy.streamlit.app",
 
         images: [
             "images/movie1.png",
